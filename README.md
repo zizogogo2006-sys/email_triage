@@ -1,22 +1,20 @@
-# AI Support Email Triage
+# Email Triage
 
-Enterprise-grade microservice for automatically triaging and drafting responses to customer support emails using IMAP and OpenAI.
+Triages and drafts responses to customer support emails via IMAP and OpenAI.
 
 ## Architecture
-- **Language**: Python 3.11+
-- **Integrations**: IMAP (Gmail)
-- **LLM**: OpenAI GPT-4o
+- Language: Python 3.11+
+- Integrations: IMAP (Gmail)
+- LLM: OpenAI GPT-4o
 
-## Infrastructure
-This service is fully containerized and includes a CI/CD pipeline.
+## Setup
 
-### Running Locally with Docker
+Run locally with Docker:
 ```bash
 docker-compose up --build
 ```
 
-### Running Tests
-We use Pytest for continuous integration.
+Run tests:
 ```bash
 pytest tests/
 ```
