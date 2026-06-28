@@ -1,3 +1,3 @@
-﻿# email_triage
+# Email Triage & Support Agent
 
-This is a portfolio project showcasing AI automation and data engineering capabilities.
+An IMAP watcher that categorizes incoming support tickets. It uses AI to identify intent, draft contextual responses, and route complex issues to human agents.

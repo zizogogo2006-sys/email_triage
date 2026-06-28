@@ -5,7 +5,6 @@ import os
 import json
 import logging
 
-# Configuration
 IMAP_SERVER = os.getenv("IMAP_SERVER", "imap.gmail.com")
 EMAIL_ACCOUNT = os.getenv("EMAIL_ACCOUNT")
 EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD") # App Password
