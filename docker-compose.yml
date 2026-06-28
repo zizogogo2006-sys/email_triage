@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  email-triage:
+    build: .
+    environment:
+      - IMAP_SERVER=${IMAP_SERVER}
+      - EMAIL_ACCOUNT=${EMAIL_ACCOUNT}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
